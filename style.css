@@ -240,6 +240,8 @@ section {
     padding: 2rem;
     transition: all 0.3s ease;
     border: 2px solid transparent;
+    display: flex;
+    flex-direction: column;
 }
 
 .project-card:hover {
@@ -280,6 +282,7 @@ section {
     display: flex;
     flex-wrap: wrap;
     gap: 0.6rem;
+    margin-bottom: auto;
 }
 
 .tech-badge {
